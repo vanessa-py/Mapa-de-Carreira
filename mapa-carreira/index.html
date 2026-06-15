@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>Sarah Lima: Mapa de Carreira</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link id="canonical-url" rel="canonical" href="">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Theme CSS (bootstrap-6 = tema padrão; troque pelo número do tema desejado) -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/bootstrap-6.css">
+
+  <style>
+    .resume-timeline-item-period {
+      font-size: 0.82rem;
+      letter-spacing: 0.03em;
+      margin-top: 2px;
+    }
+
+    /* Enquadramento correto da foto de perfil */
+    .resume-header .picture {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      object-position: center 15%;
+      display: block;
+    }
+
+    @media (max-width: 767.98px) {
+      .resume-header .picture {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <article class="resume-wrapper text-center position-relative">
+    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
+
+      <!-- ── CABEÇALHO / PERFIL ────────────────────────────── -->
+      <header class="resume-header pt-4 pt-md-0">
+        <div class="row">
+          <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
+            <img id="profile-photo" class="picture" src="assets/images/profile.jpg" alt="">
+          </div>
+          <div class="col">
+            <div class="row p-4 justify-content-center justify-content-md-between">
+              <div class="primary-info col-auto">
+                <h1 id="profile-name" class="name mt-0 mb-1 text-white text-uppercase">Sarah Lima</h1>
+                <div id="profile-tagline" class="title mb-3">Rumo à Arquitetura de Software</div>
+                <ul id="contact-email-list" class="list-unstyled"></ul>
+              </div>
+              <div class="secondary-info col-auto mt-2">
+                <ul id="contact-social-list" class="resume-social list-unstyled"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- ── CORPO ─────────────────────────────────────────── -->
+      <div class="resume-body p-5">
+
+        <!-- Resumo -->
+        <section class="resume-section summary-section mb-5">
+          <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Prazer em Conhecer</h2>
+          <div class="resume-section-content">
+            <p id="profile-summary" class="mb-0"></p>
+            <a id="cv-download" class="btn mt-3" href="assets/docs/curriculo.pdf" style="display:none">
+              Baixar o meu CV
+            </a>
+          </div>
+        </section>
+
+        <div class="row">
+
+          <!-- ── COLUNA ESQUERDA: Mapa de Carreira ──────────── -->
+          <div class="col-lg-9">
+            <section class="resume-section experience-section mb-5">
+              <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Mapa de Carreira</h2>
+              <div class="resume-section-content">
+                <div id="career-timeline" class="resume-timeline position-relative">
+                  <!-- Etapas inseridas pelo carreira-json.js -->
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- ── COLUNA DIREITA: Skills & Idiomas ───────────── -->
+          <div class="col-lg-3">
+
+            <section class="resume-section skills-section mb-5">
+              <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Hard &amp; Soft Skills</h2>
+              <p>Afinidade com as seguintes tecnologias e técnicas:</p>
+              <div class="resume-section-content">
+                <!-- Grupos de skills com barras de progresso -->
+                <div id="skill-groups"></div>
+
+                <!-- Outras competências em badges -->
+                <div class="resume-skill-item">
+                  <h4 class="resume-skills-cat font-weight-bold">Outras</h4>
+                  <ul id="other-skills" class="list-inline"></ul>
+                </div>
+              </div>
+            </section>
+
+            <section class="resume-section language-section mb-5">
+              <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Idiomas</h2>
+              <div class="resume-section-content">
+                <ul id="languages-list" class="list-unstyled resume-lang-list"></ul>
+              </div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+      <!-- /.resume-body -->
+
+    </div>
+  </article>
+
+  <!-- Script que popula a página com os dados do JSON -->
+  <script src="assets/js/carreira-json.js"></script>
+
+</body>
+</html>
