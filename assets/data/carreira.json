@@ -32,33 +32,10 @@
   ],
   "careerSteps": [
     {
-      "id": "estagiaria",
-      "title": "Estagiária de Desenvolvimento",
-      "period": "Etapa 1 · Fundação · 0 a 1 ano",
-      "description": "O ponto de partida de toda grande jornada. Nessa fase, o foco é entender como o desenvolvimento de software funciona na prática — não apenas fazer funcionar, mas começar a entender por que funciona. É o momento de errar rápido, aprender muito e construir a base técnica e comportamental que sustentará toda a carreira.",
-      "softSkills": [
-        "Comunicação clara e objetiva",
-        "Trabalho em equipe e colaboração",
-        "Curiosidade e vontade de aprender",
-        "Proatividade para buscar soluções",
-        "Inglês técnico para leitura de documentação"
-      ],
-      "roadmap": [
-        "Lógica de Programação",
-        "Git & GitHub",
-        "HTML & CSS",
-        "JavaScript",
-        "SQL",
-        "APIs REST",
-        "Testes automatizados",
-        "Inglês técnico"
-      ]
-    },
-    {
       "id": "junior",
       "title": "Desenvolvedora Júnior",
-      "period": "Etapa 2 · Júnior · 1 a 2 anos",
-      "description": "Depois do estágio, quero colocar em prática tudo o que aprendi e continuar evoluindo dentro de um ambiente profissional. Quero conquistar autonomia, participar ativamente das decisões do time e aprofundar meus conhecimentos técnicos. Para mim, esse é o momento de deixar de apenas \"fazer funcionar\" e começar a pensar no porquê das escolhas técnicas, na qualidade do código e em como construir soluções que sejam organizadas, escaláveis e fáceis de manter.",
+      "period": "Etapa 1 · Fundação · 0 a 2 anos",
+      "description": "Quero colocar em prática tudo o que aprendi e continuar evoluindo dentro de um ambiente profissional. Quero conquistar autonomia, participar ativamente das decisões do time e aprofundar meus conhecimentos técnicos. Para mim, esse é o momento de deixar de apenas \"fazer funcionar\" e começar a pensar no porquê das escolhas técnicas, na qualidade do código e em como construir soluções que sejam organizadas, escaláveis e fáceis de manter.",
       "softSkills": [
         "Escuta ativa e receptividade a feedbacks",
         "Organização e gestão de tempo",
@@ -67,9 +44,12 @@
         "Autonomia progressiva com responsabilidade"
       ],
       "roadmap": [
+        "Lógica de Programação",
+        "Git & GitHub",
         "Estruturas de Dados",
         "Orientação a Objetos (POO)",
         "Arquitetura em Camadas",
+        "APIs REST",
         "Testes unitários e integração",
         "Docker",
         "Cloud (AWS ou Azure)",
@@ -80,7 +60,7 @@
     {
       "id": "plena",
       "title": "Desenvolvedora Plena",
-      "period": "Etapa 3 · Consolidação · 2 a 5 anos",
+      "period": "Etapa 2 · Consolidação · 2 a 5 anos",
       "description": "Depois de ganhar confiança técnica, quero desenvolver algo que considero essencial: visão de conjunto. Entender como todas as partes do sistema se conectam, equilibrar necessidades técnicas e de negócio e contribuir para decisões mais conscientes. Para mim, essa etapa representa a transição entre apenas implementar soluções e começar a pensar em como elas devem ser projetadas.",
       "softSkills": [
         "Participação ativa em decisões técnicas",
@@ -103,7 +83,7 @@
     {
       "id": "senior",
       "title": "Desenvolvedora Sênior / Tech Lead",
-      "period": "Etapa 4 · Visão Sistêmica · 5 a 8 anos",
+      "period": "Etapa 3 · Visão Sistêmica · 5 a 8 anos",
       "description": "Nessa etapa, quero ser capaz de enxergar além do código e compreender como cada decisão técnica influencia os resultados do produto e do negócio. Quero contribuir para direcionamentos mais estratégicos, facilitar conversas entre diferentes áreas e transformar problemas complexos em soluções claras e sustentáveis. Acredito que saber ouvir, traduzir necessidades e alinhar expectativas passa a ser tão importante quanto o conhecimento técnico, porque grandes soluções são construídas por pessoas, e não apenas por tecnologias.",
       "softSkills": [
         "Liderança técnica e mentoria de times",
@@ -126,7 +106,7 @@
     {
       "id": "arquiteta",
       "title": "Arquiteta de Software",
-      "period": "Etapa 5 · Objetivo Final · 8+ anos",
+      "period": "Etapa 4 · Objetivo Final · 8+ anos",
       "description": "Quero chegar a um ponto da minha carreira em que eu possa usar tudo o que aprendi para orientar decisões que façam sentido tanto para a tecnologia quanto para o negócio. Quero projetar sistemas pensando nas pessoas que os constroem e nas que serão impactadas por eles, equilibrando inovação, qualidade e sustentabilidade. Para mim, ser arquiteta de software significa transformar complexidade em clareza e usar a tecnologia como ferramenta para gerar valor e mudança positiva.",
       "softSkills": [
         "Visão sistêmica e estratégica",
